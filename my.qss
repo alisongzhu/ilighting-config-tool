@@ -1,0 +1,22 @@
+/****************主界面背景*******************/
+QMainWindow{
+/*背景图片*/
+background-image: url(:/image/images/1.png);
+}
+
+
+
+/*鼠标悬停在按钮上时*/
+QPushButton:hover{
+background-color:rgba(100,255,100, 100);
+border-color: rgba(255, 225, 255, 200);
+color:rgba(0, 0, 0, 200);
+}
+
+/*按钮被按下时*/
+QPushButton:pressed {
+background-color:rgba(100,255,100, 200);
+border-color: rgba(255, 225, 255, 30);
+border-style: inset;
+color:rgba(0, 0, 0, 100);
+}

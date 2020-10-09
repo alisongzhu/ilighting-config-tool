@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeviceTreeDock</class>
+ <widget class="QDockWidget" name="DeviceTreeDock">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>204</width>
+    <height>578</height>
+   </rect>
+  </property>
+  <property name="features">
+   <set>QDockWidget::NoDockWidgetFeatures</set>
+  </property>
+  <property name="windowTitle">
+   <string>DeviceTree</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Addr</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Type</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="deleteButton">
+      <property name="text">
+       <string>delete</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="typeCombo">
+      <item>
+       <property name="text">
+        <string>iTU-11.GW</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>iTU-11.6.16</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>iTU-11.12.16</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>iTU-11.MP.4</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>iTU-11.6.16D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>iTU-11.12.16D</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="addButton">
+      <property name="text">
+       <string>add</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QTreeView" name="treeView">
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="addressEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="sortButton">
+      <property name="text">
+       <string>sort</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="searchButton">
+      <property name="text">
+       <string>search</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
